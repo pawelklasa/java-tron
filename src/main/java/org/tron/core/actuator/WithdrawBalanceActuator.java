@@ -24,7 +24,6 @@ public class WithdrawBalanceActuator extends AbstractActuator {
     super(contract, dbManager);
   }
 
-
   @Override
   public boolean execute(TransactionResultCapsule ret) throws ContractExeException {
     long fee = calcFee();
